@@ -6,7 +6,8 @@ app = Flask(__name__)
 
 NUTRITIONIX_API_URL = "https://trackapi.nutritionix.com/v2/natural/nutrients"
 NUTRITIONIX_APP_ID = os.environ.get("759b141f")
-NUTRITIONIX_API_KEY = os.environ.get("24e7d0b489aed08057df865213cac037-")
+NUTRITIONIX_API_KEY = os.environ.get("24e7d0b489aed08057df865213cac037	—
+")
 
 headers = {
     "x-app-id": NUTRITIONIX_APP_ID,
