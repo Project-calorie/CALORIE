@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head><title>Result</title></head>
+<body style="text-align:center;">
+    <h2>Calories for {{ weight }}g of {{ food }} = {{ calories }} kcal</h2>
+    <form method="POST" action="/goal">
+        <button type="submit" name="choice" value="gain">Weight Gain</button>
+        <button type="submit" name="choice" value="loss">Weight Loss</button>
+    </form>
+</body>
+</html>
